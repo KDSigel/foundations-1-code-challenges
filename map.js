@@ -59,7 +59,7 @@ Output:
 */
 
 export function makeStringArray(arr) {
-    return [];
+    return arr.map(({ name, type }) => name + type);
 }
 
 /*
