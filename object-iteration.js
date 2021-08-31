@@ -38,7 +38,7 @@ Output:
 */
 
 export function makeMoreScreamingKeys(someObject) {
-    return {};
+    return Object(someObject);
 }
 
 /*
